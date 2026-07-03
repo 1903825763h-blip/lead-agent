@@ -1,0 +1,35 @@
+# environment variables / secrets
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.idea/
+.vscode/
+
+# runtime data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.xlsx
+data/*.xls
+
+# logs
+*.log
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# OS files
+.DS_Store
+Thumbs.db
